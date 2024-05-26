@@ -32,7 +32,7 @@ func _ProcessAction(delta: float):
 	_PositionAction(delta, velocity, screen_size)
 	_AnimationSetting(velocity)
 	
-	# 設定起始的位置
+# 設定起始的位置
 # - Parameters:
 #   - position: 位置
 func _StartAction(position: Vector2):
